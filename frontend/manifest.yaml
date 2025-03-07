@@ -26,6 +26,8 @@ spec:
       containers:
       - name: nginx
         image: vivekreddy19/frontend:1.1.0
+        ports:
+        - containerPort: 8080
 ---
 kind: Service
 apiVersion: v1
