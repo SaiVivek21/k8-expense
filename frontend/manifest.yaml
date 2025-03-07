@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: vivekreddy19/frontend:1.1.0
+        image: vivekreddy19/frontend:1.2.0
         ports:
         - containerPort: 8080
 ---
